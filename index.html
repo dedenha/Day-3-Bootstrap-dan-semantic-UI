@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Responsive Clean Form</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Semantic UI CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+
+    .custom-form {
+      max-width: 600px;
+      margin: 50px auto;
+      background-color: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .custom-form h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .btn-custom {
+      width: 100%;
+      background-color: #00b5ad;
+      color: white;
+    }
+
+    .btn-custom:hover {
+      background-color: #009c95;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="custom-form">
+      <h2 class="ui header">Clean Responsive Form</h2>
+
+      <form>
+        <div class="form-group">
+          <label for="name" class="ui pointing below label">Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Enter your name">
+        </div>
+
+        <div class="form-group">
+          <label for="email" class="ui pointing below label">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="Enter your email">
+        </div>
+
+        <div class="form-group">
+          <label for="password" class="ui pointing below label">Password</label>
+          <input type="password" class="form-control" id="password" placeholder="Enter your password">
+        </div>
+
+        <div class="form-group">
+          <label for="message" class="ui pointing below label">Message</label>
+          <textarea class="form-control" id="message" rows="3" placeholder="Write your message"></textarea>
+        </div>
+
+        <button type="submit" class="ui button btn-custom">Submit</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <!-- Semantic UI JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+</body>
+
+</html>
